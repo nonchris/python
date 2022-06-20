@@ -16,7 +16,7 @@ Have a quick thought how you can test a number for prime using a programming lan
 Write the `__main__` section of your code.  
 This part shall include a `for`-loop iterating over the follwoing list, giving the first entry of each tuple as input to the function and comparing the return with the second value of the tuple.  
 
-```
+```py
 [(0, False), (1, False), (2, True), (3, True),
 (4, False), (5, True), (6, False), (7, True),
 (15, False), (21, False), (22, False), (23, True),
@@ -38,12 +38,17 @@ Testing: `generate_prime_table(10)` should create the follwing output:
 * accept floats of the format `x.0`
 * accept numbers as strings
 
+For testing expand your list with those cases:  
+```py
+("11", True), ("2.5", False), (7.0, True)
+````
+
 #### Runtime optimization
 Import the `time` modul at the top of you program:  
 `import time`
 Copy this finction into your code:  
 
-```python=
+```py
 def benchmark(function, times: int, fn_input=1000) -> float:
     """
     A function executing an other function measuring the time the execution took, prints the result
