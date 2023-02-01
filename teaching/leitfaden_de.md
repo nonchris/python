@@ -4,13 +4,13 @@ Ist dies nicht der Fall, sollte man vlt besser mal erklären, was Variablen sind
 Trotzdem kann er natürlich als Checklist herhalten, ob man alles wichtige abgedeckt hat :)  
 
 ### Was python?
-- Interpretierte Skirptsprache
+- Interpretierte Skriptsprache
 - cpythons Core ist in C programmiert
-    - gibt aber mehr implementationen - jython.
+    - gibt aber mehr Implementationen - jython.
 - python3(.10) ist aktuell
 - Beliebt weil optimiert auf Programmierzeit
-- Mies lamgsam im Vergleich zu C
-- Grabage collected
+- Mies langsam im Vergleich zu C
+- Garbage collected
     - No need to manage our Arbeitsspeicher
 
 ### Einstieg über C vs python
@@ -88,7 +88,7 @@ sum(numbers)
 (Ich hoffe das ist das erste und letzte Mal, dass ich dieses Modul zitiere...)  
 -> Im Prinzip ein Struct, dass seine eigenen Funktionen mitbringt  
 
-- Idee für anderes Beipsiel: Pokemon
+- Idee für anderes Beispiel: Pokemon
 
 ```python=
 class Person:
@@ -122,9 +122,9 @@ maxi.how_old_am_i()
 lina.how_old_am_i()
     
 ```
-* Auf init eingehen (Construktor)
+* Auf init eingehen (Constructor)
 * Wie Funktionen definiert werden (self!)
-* Jedes Objekt einer Klasse hat seine eigenen Vars (versch Objekte erstellen?)
+* Jedes Objekt einer Klasse hat seine eigenen Vars (versch. Objekte erstellen?)
 * f-String kommt später
 * Vererbung vollst. erklären, oder nur anreißen?
     * "Wir können damit Funktionen übernehmen". Fertig.
@@ -137,7 +137,7 @@ So. Jetzt wo klar ist, was Objekte sind: Kommen wir zu Datentypen.
 * Mutable vs Immutable kurz anreißen
 
 #### `type()`
-Cool. Und wie finde ich jetzt raus welchen Typ eine Variable/ ein Objekt hat?
+Cool. Und wie finde ich jetzt raus welchen Typ eine Variable / ein Objekt hat?
 ```python=
 x = "Hallo Welt"
 print(type(3))
@@ -151,7 +151,7 @@ print(type(peter))
 #### immutable
 ##### bool
 * - True, False, None
-    - int (bel. Länge), float -> alle nummern was gibt
+    - int (bel. Länge), float -> alle Nummern was gibt
 ```python=
 x = True
 y = False
@@ -192,7 +192,7 @@ print(x // y)  # 2.0
   - strings kann man addieren und multiplizieren  
 ##### typecasting
 * wie jetzt? Man kann aus einem float ein int machen?!
-    * Ach so, das sind auch nur die konstruktoren der Klassen?
+    * Ach so, das sind auch nur die Konstruktoren der Klassen?
     * und so kann man sogar aus einem Wort eine Zahl machen?! sick!
 ```python=
 int_var = int("42")
@@ -213,7 +213,7 @@ print(type(str_var))
 
 
 #### mutable
-- datetypen sind run and go. was ist speicher allokieren?!
+- datentypen sind run and go. was ist speicher allokieren?!
 ##### listen (alles kann da rein)
   - wie man listen mit bestimmtem stuff initialisiert
   - append, extend, remove
@@ -298,7 +298,7 @@ if len(my_list) >= 4:
 else:
     my_list[4] = True
 ```
-* Teils gibt es auch bereits interne Sturkturen dafür
+* Teils gibt es auch bereits interne Strukturen dafür
 ```python=
 print(i_am.get("dozent", False))
 ```
@@ -343,7 +343,7 @@ l("hi")
 - \*\*kwargs
 - krass man kann funktionen übergeben
 - bock auf decoratoren?
-    - Gerade Eher nicht so....
+    - Gerade eher nicht so....
 
 #### Kontextmanager
 - with
@@ -371,22 +371,22 @@ finally:
 
 ### imports
 - hier `__main__` erklären
-- syntax unterschiede zwischen import x und from x import y
+- syntax Unterschiede zwischen import x und from x import y
 - die standard libraries
     - os, json, csv, math, functools, datetime
 
-- was is ein modul? - ach so im Grunde einfach nur eine python datei.
+- was is ein Modul? - ach so im Grunde einfach nur eine python datei.
 
 - zeigen was bei import mit eigener Datei passiert
-    - Daher nur funktionen und klassen schreiben
+    - Daher nur Funktionen und Klassen schreiben
     - if name == main
 
 #### meet pip
 * pip installs packages ;)  
 - requirements.txt
 
-#### geiles libraries
-* der standard kram, numpy, pandas, matplotlib
+#### geile libraries
+* der standard Kram, numpy, pandas, matplotlib
 * discord.py :D
 * telegram
 * wie man docs ließt
@@ -399,7 +399,7 @@ finally:
     - nicht alles in ein if/ else packen
 
 #### Walruss und Ternary Operator
-* joa, überschrift self-explaining, huh?
+* joa, Überschrift self-explaining, huh?
 
 
 #### logging
@@ -415,5 +415,5 @@ Damit das so Sinn macht muss man also scheinbar schon mehr also nur eine "sum()"
 Wie man eine Variable zur Laufzeit an ein Objekt anhängt oder anderen cursed stuff aus meinem github python Repo, den ich witzig finde.
 
 #### Programmfluss
-Dass man durch ein retrun weniger Einrückungen hat, eine invertierung der if-condition oder continue wunder bewirken kann, will ich hier ungern inTiefe zeigen.  
+Dass man durch ein retrun weniger Einrückungen hat, eine Invertierung der if-condition oder continue wunder bewirken kann, will ich hier ungern in Tiefe zeigen.  
 Dafür entwickelt man irgendwann selbst ein Gefühl.
