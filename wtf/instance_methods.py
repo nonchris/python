@@ -16,7 +16,6 @@ def new_say_value(self):
 
 old_instance = MyClass()
 
-print()
 print("Old instance before attach:")
 old_instance.say_value()
 
@@ -36,3 +35,7 @@ print()
 print("Old instance after attach:")
 old_instance.say_value()
 old_instance.scream_value()
+
+print()
+print("Are instances of the same type?")
+print(type(old_instance) == type(new_instance))
