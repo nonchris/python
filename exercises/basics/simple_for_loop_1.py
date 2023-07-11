@@ -33,7 +33,7 @@ len_of_list = 0
 for number in my_list:
     # in each step we just count one to the global variable
     len_of_list = len_of_list + 1
-    print("Current number: " + len_of_list)
+    print("Current number: " + str(len_of_list))
 
 print(len_of_list)
 
