@@ -32,5 +32,6 @@ my_number = 10
 # TODO: add an else statement that says that the number is less or equal to 10
 
 
-# TODO: change the value of my_number to a value that fulfills the if-condition above
+# TODO: change the value of my_number above to a value that not fulfills the if-conditions above
+#  it worked when the code from the 'else'-block is executed
 

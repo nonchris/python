@@ -21,5 +21,6 @@ if my_number > 10:
 else:
     print("The number is less or equal to 10")
 
-# change the value of my_number to a value that fulfills the if-condition above
-# a possible solution: 5
+# change the value of my_number above to a value that not fulfills the if-conditions above
+# it worked when the code from the 'else'-block is executed
+# possible solution: 5
