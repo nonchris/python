@@ -24,4 +24,4 @@ say_hello()
 
 
 # TODO: call say_name with two different names
-say_name("Chris")
+# say_name("Chris")
