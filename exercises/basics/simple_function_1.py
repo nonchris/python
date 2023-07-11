@@ -11,7 +11,6 @@ you can remove the # and space behind it and use it as a start!
 
 def say_hello():
     ...
-    # *your function body here*
 
 
 # TODO: call the function say_hello() twice
