@@ -1,4 +1,4 @@
-number = "42"
+number = "41"
 
 # convert the string to an integer
 number = int(number)
