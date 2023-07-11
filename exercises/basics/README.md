@@ -6,3 +6,4 @@
 * simple_function_2
 * simple_list_1
 * simple_for_loop_1
+* simple_for_loop_2
