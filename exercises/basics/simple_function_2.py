@@ -20,7 +20,7 @@ y_3 = 7
 
 
 
-res1 = add_numbers(x_1, y_1)
-print(res1)
+# res1 = add_numbers(x_1, y_1)
+# print(res1)
 # TODO call the function with the other two pairs
 #  save the returned result in a variable and print the variable
