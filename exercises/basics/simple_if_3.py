@@ -20,7 +20,7 @@ print(my_string_2_split)
 # TODO: write a for loop that prints the elements in my_string_2_split
 
 
-my_new_sting = "Hello, how are you?"
+my_new_string = "Hello, how are you?"
 # TODO: split that string into a list of words and print the list
 
 
