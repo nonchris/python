@@ -10,7 +10,7 @@ my_dict = {
 print(my_dict)
 
 # extract the value of 'key1'
-value = my_dict["key"]
+value = my_dict["key1"]
 print(value)
 
 # we can add values to a dict, by writing the name of the key in square brackets
