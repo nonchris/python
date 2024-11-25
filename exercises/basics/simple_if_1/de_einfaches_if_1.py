@@ -18,7 +18,8 @@ Beachte, dass der Code, der ausgeführt wird, wenn die Bedingung wahr ist, um 4 
 
 meine_nummer = 10  # Der Variablenname "my_number" wurde in "meine_nummer" übersetzt
 
-# TODO: In allen if-Anweisungen eine print-Anweisung hinzufügen, die erklärt, was passiert
+# TODO: Generelle Anweisung:
+#  In allen if-Anweisungen eine print-Anweisung hinzufügen, die erklärt, was passiert
 
 # TODO: Schreibe eine if-Anweisung, dass die meine_nummer gleich 10 ist
 # if meine_nummer == 10:
