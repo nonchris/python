@@ -27,6 +27,8 @@ my_dict["key3"] = "new value"
 value3 = my_dict["key3"]
 print(value3)
 
+# TODO: initialize a new dict
+
 # TODO: print the value of 'key2'
 
 

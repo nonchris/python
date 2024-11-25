@@ -26,6 +26,7 @@ d = {"x": 1}
 if "x" in d:
     print("x is in d!")
 
+# TODO: fstring syntax
 # write a function that takes the name of a key and prints if it is in the dict
 # also print that the key is not in the dict if it isn't
 def print_if_in_dict(key):
