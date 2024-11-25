@@ -9,14 +9,14 @@ du kannst das # und das Leerzeichen dahinter entfernen und es als Start benutzen
 
 zahl = "41"
 
-# TODO: Konvertiere den String in einen Integer
+# TODO: Konvertiere die Variable zahl in einen Integer
 # zahl =
 
 # Lass es uns ausdrucken und den Typ sicherstellen
 print(zahl)
 print(type(zahl))
 
-# TODO: addiere 1 zur Zahl
+# TODO: addiere 1 zur zahl
 # zahl =
 
 # Lassen wir uns den Wert prüfen
@@ -28,7 +28,7 @@ print(zahl)
 print(zahl)
 print(type(zahl))
 
-# TODO: füge dem String eine Null hinzu
+# TODO: füge dem String eine Null an den string hinzu
 
 
 print(zahl)
