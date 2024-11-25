@@ -22,6 +22,10 @@ print(zahl)
 print(type(zahl))
 print()  # leerzeile für übersicht
 
+# TODO: tausche oben den Wert für zahl aus (gerade 41)
+#  schau dir an, ob sich die Ausgaben alle mit verändern
+#  du musst hier keine neue Zeile schreiben, sondern nur eine verändern
+
 # TODO: addiere 1 zur zahl
 #zahl =
 

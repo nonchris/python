@@ -22,6 +22,10 @@ print(number)
 print(type(number))
 print()  # empty line for prettier output
 
+# TODO: change the value for number (currently 41)
+#  observe that all outputs change accordingly
+#  you're not supposed to write a new line here, just modify one
+
 # TODO: add 1 to the number
 #number =
 
