@@ -44,6 +44,7 @@ print(type(zahl))
 print()  # leerzeile für übersicht
 
 # TODO: füge dem String eine Null an den string hinzu
+#  Beispiel: ist zahl "42" soll der neue wert "420" sein
 
 
 print("Wert von zahl nach dem Anhängen von einer Null")

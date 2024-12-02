@@ -42,6 +42,7 @@ print(number)
 print(type(number))
 
 # TODO: add a zero to the string
+#  Example: if your number is "42" the new value shall be "420"
 
 
 print("Value and type of number after adding a zero to the string")
