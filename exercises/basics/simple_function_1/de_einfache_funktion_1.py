@@ -9,19 +9,19 @@ du kannst das # und das Leerzeichen dahinter entfernen und es als Start verwende
 
 # TODO: Schreibe eine Funktion say_hello(), um "Hello" zweimal auszugeben
 
-def sag_hallo():  # Der Funktionsname "say_hello" wurde zu "sag_hallo" übersetzt
-    print("Hello")
-    print("Hello")
+def say_hello():
+    ...
 
-# TODO: Rufe die Funktion sag_hallo() zweimal auf
-sag_hallo()
-sag_hallo()
 
-# TODO: Erzeuge eine neue Funktion say_name(name), um "Hello" und den Namen zweimal auszugeben
+# TODO: Rufe die Funktion say_hello() zweimal auf
+say_hello()
 
-def sag_name(name):  # Der Funktionsname "say_name" wurde zu "sag_name" übersetzt
-    print(f"Hello {name}")
-    print(f"Hello {name}")
 
-# TODO: Rufe sag_name mit zwei verschiedenen Namen auf
-sag_name("Chris")
+# TODO: Erstelle eine neue Funktion say_name(name), um "Hello" und den Namen zweimal auszugeben
+
+#def ...
+#*deine Funktion hier*
+
+
+# TODO: Rufe say_name mit zwei verschiedenen Namen auf
+#say_name("Chris")
