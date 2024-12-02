@@ -22,7 +22,7 @@ print(number)
 print(type(number))
 print()  # empty line for prettier output
 
-# TODO: change the value for number (currently 41)
+# TODO: change the current value for number (currently "41")
 #  observe that all outputs change accordingly
 #  you're not supposed to write a new line here, just modify one
 
@@ -49,6 +49,7 @@ print(type(number))
 print()  # empty line for prettier output
 
 # TODO now double the string by adding it to itself
+#  Example: if number is "42" the new value should be "4242"
 
 
 print("Value of number after doubling the string")

@@ -22,7 +22,7 @@ print(zahl)
 print(type(zahl))
 print()  # leerzeile für übersicht
 
-# TODO: tausche oben den Wert für zahl aus (gerade 41)
+# TODO: tausche oben den Wert für zahl gesetzten Wert aus (gerade "41")
 #  schau dir an, ob sich die Ausgaben alle mit verändern
 #  du musst hier keine neue Zeile schreiben, sondern nur eine verändern
 
@@ -51,6 +51,7 @@ print(type(zahl))
 print()  # leerzeile für übersicht
 
 # TODO: verdopple jetzt den String, indem du ihn zu sich selbst hinzufügst
+#  Beispiel: wenn zahl gerade "42" ist, soll der neue Wert "4242" sein
 
 
 print("Wert von Zahl nach Verdopplung")
