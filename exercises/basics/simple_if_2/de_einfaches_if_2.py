@@ -16,25 +16,21 @@ if <Bedingung>:
 Beachte, dass der Code, der ausgeführt wird, wenn die Bedingung wahr ist, um 4 Leerzeichen eingerückt ist.
 """
 
-meine_nummer = 10  # Der Variablenname "my_number" wurde in "meine_nummer" übersetzt
+mein_string = "abc"
 
-# TODO: In allen if-Anweisungen eine print-Anweisung hinzufügen, die erklärt, was passiert
-
-# TODO: Schreibe eine if-Anweisung, dass die Zahl gleich 10 ist
-# if meine_nummer == 10:
-#     print("Die Zahl ist gleich 10")
+# TODO: Vergleiche mein_string mit "abc" und gib eine Nachricht aus, wenn sie gleich sind
+#if
 
 
-# TODO: Schreibe eine if-Anweisung, dass die Zahl größer als 10 ist und gib dies aus
-# if meine_nummer > 10:
-#     print("Die Zahl ist größer als 10")
+# TODO: Überprüfe, ob die Länge von mein_string kleiner als 5 ist, und gib eine Nachricht aus, wenn dem so ist
+# Denke daran, dass du die len() Funktion verwenden kannst, um die Länge eines Strings zu erhalten
+#if len(mein_string) < :
 
 
-# TODO: Füge eine else-Anweisung hinzu, die sagt, dass die Zahl kleiner oder gleich 10 ist
-# else:
-#     print("Die Zahl ist kleiner oder gleich 10")
+# TODO: Füge eine elif-Anweisung hinzu, die überprüft, ob die Länge größer als zehn ist
+#elif len(
 
+# TODO: Ändere mein_string oben so, dass keine der oben genannten Bedingungen erfüllt ist
 
-# TODO: Ändere den Wert von meine_nummer oben zu einem Wert, der die if-Bedingungen oben nicht erfüllt
-#  es funktionierte, als der Code des 'else'-Blocks ausgeführt wurde
-meine_nummer = 5  # Beispiel für einen Wert, der die Bedingungen nicht erfüllt
+# TODO: Überprüfe deine Annahme, indem du einen 'sonst'-Fall erstellst, der die tatsächliche Länge des Strings ausgibt
+#else:

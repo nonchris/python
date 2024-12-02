@@ -22,21 +22,18 @@ meine_nummer = 10  # Der Variablenname "my_number" wurde in "meine_nummer" über
 #  In allen if-Anweisungen eine print-Anweisung hinzufügen, die erklärt, was passiert
 
 # TODO: Schreibe eine if-Anweisung, dass die meine_nummer gleich 10 ist
-# if meine_nummer == 10:
-#     print("Die Zahl ist gleich 10")
+#if meine_nummer == 10:
+#    print("Die Zahl ist gleich 10")
 
 
 # TODO: Schreibe eine if-Anweisung, dass die meine_nummer größer als 10 ist und gib dies aus
-# if meine_nummer > 10:
-#     print("Die Zahl ist größer als 10")
+#if :
+#    print("Die Zahl ist größer als 10")
 
 
 # TODO: Füge eine else-Anweisung hinzu, die sagt, dass die meine_nummer kleiner oder gleich 10 ist
-# else:
-#     print("Die Zahl ist kleiner oder gleich 10")
 
 
 # TODO: Ändere den Wert von meine_nummer oben zu einem Wert, der die if-Bedingungen oben nicht erfüllt
 #  es funktionierte, als der Code des 'else'-Blocks ausgeführt wurde
 
-meine_nummer = 5  # Beispiel für einen Wert, der die Bedingungen nicht erfüllt
