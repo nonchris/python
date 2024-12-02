@@ -34,7 +34,8 @@ print("Value and type of number after adding 1:")
 print(number)
 print()  # empty line for prettier output
 
-# TODO: convert it back to a string
+# TODO: convert number back to a string
+#  Hint: remember how you converted number into an int
 
 print("Value and type of number after conversion to str:")
 print(number)

@@ -34,7 +34,8 @@ print("zahl nach der addition mit 1")
 print(zahl)
 print()  # leerzeile für übersicht
 
-# TODO: konvertiere es zurück in einen String
+# TODO: konvertiere zahl zurück in einen String
+#  Tipp: erinner dich, wie du oben zahl in zu int konvertiert hast
 
 print("Wert und Typ der Variable zahl nach Konvertierung zurück zu str:")
 print()
