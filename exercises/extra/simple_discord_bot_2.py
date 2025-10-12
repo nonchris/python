@@ -1,10 +1,13 @@
+import pathlib
+
 import discord
 from discord.ext import commands
 
 PREFIX = "b!"
-# TODO: Paste your token here (don't ever do this in real code!)
-# Normally you should read the token from a config file or the environment
-I_DONT_PASTE_TOKENS_IN_MY_CODE = ""
+# read in the token
+#  the token file must existin the same folder as this file and may ONLY contain the token
+# (normaly we'd use 'environment variables' and maybe a .env-file, but we keep it basic)
+TOKEN = pathlib.Path("TOKEN.txt").read_text().strip()
 intents = discord.Intents.all()
 
 bot = commands.Bot(PREFIX, intents=intents)
@@ -101,4 +104,4 @@ async def __sync_commands_to_guild(guild: discord.Guild):
         print(f"Don't have the permissions to push slash commands to: '{guild.name}'")
 
 
-bot.run(I_DONT_PASTE_TOKENS_IN_MY_CODE)
+bot.run(TOKEN)
